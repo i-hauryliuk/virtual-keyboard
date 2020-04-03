@@ -14,7 +14,7 @@ module.exports = (env, options) => {
       port: 8000,
     },
     entry: [
-      './src/main.js',
+      './src/js/main.js',
       './src/scss/main.scss',
     ],
     output: {
