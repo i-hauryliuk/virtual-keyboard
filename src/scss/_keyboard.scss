@@ -1,0 +1,31 @@
+.keyboard {
+  width: 842px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.keyboard:focus {
+  border: 2px solid #b9c0c9;
+  outline: none;
+}
+
+// .keyboard:focus-within {
+//   opacity: 1;
+// }
+
+// .keyboard:not(:focus) {
+//   opacity: 0.5;
+// }
+
+.keyboard__keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2px;
+}
+
+.keyboard__key {
+  padding: 3px;
+}
