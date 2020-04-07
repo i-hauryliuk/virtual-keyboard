@@ -2,7 +2,6 @@ import LayoutData from './LayoutsData';
 import Key from './Key';
 import Output from './Output';
 
-
 const keyOptions = {
   tags: {
     keyTag: 'button',
@@ -53,7 +52,6 @@ const outputOptions = {
     outputFieldClasses: ['output__field'],
   },
 };
-
 
 export default class Keyboard {
   constructor(lang) {
