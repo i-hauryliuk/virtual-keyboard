@@ -1,0 +1,74 @@
+.key {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+  font-size: 1.1rem;
+  font-family: "Arial", sans-serif;
+  color: #454141;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #b9c0c9;
+  cursor: pointer;
+  user-select: none;
+
+  &:active {
+    outline: none;
+  }
+
+  span {
+    pointer-events: none;
+  }
+}
+
+.key_control {
+  font-size: 0.9em;
+}
+
+.key_backspace {
+  width: 110px;
+}
+
+.key_tab {
+  width: 110px;
+}
+
+.key_caps {
+  width: 81px;
+}
+
+.key_enter {
+  width: 125px;
+}
+
+.key_shift {
+  width: 103px;
+}
+
+.key_ctrl {
+  width: 80px;
+}
+
+.key_space {
+  width: 294px;
+}
+
+.key_pressed {
+  background-color: #dee3e9;
+}
+
+.key_shift_active {
+  background-color: #dee3e9;
+}
+
+.key__other-label {
+  position: absolute;
+  top: 6%;
+  left: 9%;
+  font-size: 0.7em;
+}
