@@ -93,6 +93,13 @@ export default class Keyboard {
     output.createOutput(outputOptions.tags, outputOptions.classes);
     keyboardWrapperElement.append(output.domNode);
     this.createDomNode(keyboardOptions.tags, keyboardOptions.classes);
+    const headerElement = document.createElement('div');
+    headerElement.classList.add('header');
+    const headerDescrElement = document.createElement('p');
+    headerDescrElement.classList.add('header__description');
+    headerDescrElement.textContent = 'Made in Windows. Language switcher: Alt+Shift';
+    headerElement.append(headerDescrElement);
+    keyboardWrapperElement.prepend(headerElement);
     keyboardWrapperElement.append(this.domNode);
     document.body.classList.add('page');
     document.body.prepend(keyboardWrapperElement);
